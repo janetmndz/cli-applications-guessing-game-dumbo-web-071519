@@ -8,6 +8,6 @@ def run_guessing_game
   elsif user_input.to_i == computer_number
     print "You guessed the correct number!"
   else
-    print "Sorry! The computer guessed #{computer_number}."
+    p "Sorry! The computer guessed #{computer_number}."
   end
 end
