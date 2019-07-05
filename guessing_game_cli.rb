@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  computer_number = rand(1..7)
+  computer_number = rand(1..6)
   person_number = gets.chomp.to_i 
   p computer_number
   p person_number
