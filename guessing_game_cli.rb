@@ -7,7 +7,7 @@ def run_guessing_game
   p person_number
   if person_number === computer_number
     puts "You guessed the correct number!"
-  elsif person_number =="exit"
+  elsif person_number === "exit"
     puts "Goodbye!"
   else
     print "Sorry! The computer guessed #{computer_number}."
